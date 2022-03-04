@@ -1,0 +1,115 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+
+body{
+    background: rgb(255, 255, 255);
+}
+
+:root{
+    --cb1:;
+    --blue:;
+    --cell2:;
+    --cell3:;
+    --cell4:;
+    --cell5:;
+    --cell6:;
+}
+
+.alpha{
+    width: 100%;
+    max-width: none;
+    margin: 0 auto;
+}
+
+.flex-container{
+    //display: flex;
+    background: #fff;
+
+}
+
+.box1{
+    height: 200px;
+    min-width: none;
+    background-color:var(--cb1, rgb(228, 170, 46));
+    flex-grow: 2;
+}
+
+.box2{
+    height: 60px ;
+    min-width: 100px;
+    background-color: #fff;
+}
+
+.box3{
+    height:600px;
+    min-width: 100px;
+    background-color: rgb(43, 43, 43);
+}
+.text-center{
+    font-weight: bold;
+       text-align: center;
+
+}
+.rgb{
+    text-align: center;
+    font-size: 71px;
+}
+
+#b1{
+   align-content: center;
+}
+
+.container{
+    height: 400px;
+    margin: 0px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.cell{
+    color: white;
+    max-width: 200px;
+    min-width: 200px;
+    height: 200px;
+
+
+}
+
+.cell-1{
+    background: var(--blue);
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.cell-2{
+    background: var(--cell2);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.cell-3{
+    background: var(--cell3);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.cell-4{
+    background: var(--cell4);
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.cell-5{
+    background: var(--cell5);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.cell-6{
+    background: var(--cell6);
+    margin: 20px;
+    border-radius: 20px;
+}
